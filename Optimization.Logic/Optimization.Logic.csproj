@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Optimization.DataLayer\Optimization.DataLayer.csproj" />
+    <ProjectReference Include="..\Optimization.DbAccess\Optimization.DbAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BskaGenericCoreLib">
+      <HintPath>..\..\..\Custom API\BskaGenericCoreLib\BskaGenericCoreLib\bin\Debug\netstandard2.0\BskaGenericCoreLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

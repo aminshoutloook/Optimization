@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ImageSource x:Key="Logo">
+        /Resources/Images/BeskaLogo.ico
+    </ImageSource>
+
+    <ImageSource x:Key="ApseLogoLg">
+        /Resources/Images/logoLg.png
+    </ImageSource>
+
+    <ImageSource x:Key="ApseLogo">
+        /Resources/Images/logo.png
+    </ImageSource>
+    
+</ResourceDictionary>

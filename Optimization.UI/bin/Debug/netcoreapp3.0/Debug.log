@@ -1,0 +1,284 @@
+2019-11-08 13:15:26.3741 - INFO: Starting
+2019-11-08 13:15:26.3883 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 13:15:26.4343 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 13:15:26.6371 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 13:15:26.8028 - INFO: Started
+2019-11-08 13:17:39.4487 - INFO: Starting
+2019-11-08 13:17:39.4640 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 13:17:39.5112 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 13:17:39.7098 - INFO: Unhandled dispatcher thread exception
+2019-11-08 13:17:39.7098 - ERROR: System.Exception: - thrown from Rx Start.
+   at Optimization.UI.StartWindow..ctor(IMessageService messageService, ISchedulerService schedulerService) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\StartWindow.xaml.cs:line 27
+   at Optimization.UI.App.OnStartup(StartupEventArgs e) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml.cs:line 59
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+EXCEPTION: System.Exception: - thrown from Rx Start.
+   at Optimization.UI.StartWindow..ctor(IMessageService messageService, ISchedulerService schedulerService) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\StartWindow.xaml.cs:line 27
+   at Optimization.UI.App.OnStartup(StartupEventArgs e) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml.cs:line 59
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+2019-11-08 13:26:50.1115 - INFO: Starting
+2019-11-08 13:26:50.1261 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 13:26:50.1648 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 13:26:50.4517 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 13:26:50.6264 - INFO: Started
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - ChromeViewModel, duration = 3 ms
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 13:27:00.9712 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 13:27:00.9712 - INFO: Good Bye!
+2019-11-08 15:40:33.5289 - INFO: Starting
+2019-11-08 15:40:33.5819 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 15:40:33.6711 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 15:40:34.4991 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 15:40:35.2083 - INFO: Started
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - ChromeViewModel, duration = 16 ms
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 15:40:46.6141 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 15:40:46.6141 - INFO: Good Bye!
+2019-11-08 17:10:47.3606 - INFO: Starting
+2019-11-08 17:10:47.3836 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:10:47.4284 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:10:48.1628 - INFO: Unhandled dispatcher thread exception
+2019-11-08 17:10:48.1628 - ERROR: Autofac.Core.DependencyResolutionException: An exception was thrown while activating Optimization.UI.ViewModels.Concrete.ChromeViewModel -> Optimization.UI.ViewModels.Concrete.StartWindowViewModel.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor()' on type 'StartWindowViewModel'.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating Optimization.DataLayer.EfCode.OptimizationContext.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Optimization.DataLayer.EfCode.OptimizationContext' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.EntityFrameworkCore.DbContextOptions`1[Optimization.DataLayer.EfCode.OptimizationContext] options' of constructor 'Void .ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1[Optimization.DataLayer.EfCode.OptimizationContext])'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   at Autofac.Core.Resolving.InstanceLookup.<>c__DisplayClass6_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, Parameter[] parameters)
+   at Optimization.UI.BootStrapper.Resolve[T]() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\BootStrapper.cs:line 95
+   at Optimization.UI.ViewModels.Concrete.StartWindowViewModel..ctor() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\ViewModels\Concrete\StartWindowViewModel.cs:line 14
+   at lambda_method(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   at Optimization.UI.BootStrapper.get_RootVisual() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\BootStrapper.cs:line 29
+   at Optimization.UI.App.OnStartup(StartupEventArgs e) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml.cs:line 62
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+EXCEPTION: Autofac.Core.DependencyResolutionException: An exception was thrown while activating Optimization.UI.ViewModels.Concrete.ChromeViewModel -> Optimization.UI.ViewModels.Concrete.StartWindowViewModel.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor()' on type 'StartWindowViewModel'.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating Optimization.DataLayer.EfCode.OptimizationContext.
+ ---> Autofac.Core.DependencyResolutionException: None of the constructors found with 'Autofac.Core.Activators.Reflection.DefaultConstructorFinder' on type 'Optimization.DataLayer.EfCode.OptimizationContext' can be invoked with the available services and parameters:
+Cannot resolve parameter 'Microsoft.EntityFrameworkCore.DbContextOptions`1[Optimization.DataLayer.EfCode.OptimizationContext] options' of constructor 'Void .ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1[Optimization.DataLayer.EfCode.OptimizationContext])'.
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.GetValidConstructorBindings(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   at Autofac.Core.Resolving.InstanceLookup.<>c__DisplayClass6_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.GetOrCreateAndShare(Guid id, Func`1 creator)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, Parameter[] parameters)
+   at Optimization.UI.BootStrapper.Resolve[T]() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\BootStrapper.cs:line 95
+   at Optimization.UI.ViewModels.Concrete.StartWindowViewModel..ctor() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\ViewModels\Concrete\StartWindowViewModel.cs:line 14
+   at lambda_method(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.Activate(IEnumerable`1 parameters, Object& decoratorTarget)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.Core.Container.ResolveComponent(IComponentRegistration registration, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve[TService](IComponentContext context)
+   at Optimization.UI.BootStrapper.get_RootVisual() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\BootStrapper.cs:line 29
+   at Optimization.UI.App.OnStartup(StartupEventArgs e) in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml.cs:line 62
+   at System.Windows.Application.<.ctor>b__1_0(Object unused)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+2019-11-08 17:11:25.9222 - INFO: Starting
+2019-11-08 17:11:25.9572 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:11:26.1334 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:21:06.7926 - INFO: Starting
+2019-11-08 17:21:06.8115 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:21:06.9350 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:21:10.0589 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:21:10.6887 - INFO: Started
+2019-11-08 17:29:02.9623 - INFO: Starting
+2019-11-08 17:29:02.9953 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:29:03.1135 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:29:06.6396 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:29:12.5651 - INFO: Started
+2019-11-08 17:30:37.9433 - INFO: Starting
+2019-11-08 17:30:37.9721 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:30:38.1551 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:30:41.1651 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:30:45.4649 - INFO: Started
+2019-11-08 17:30:49.7115 - DEBUG: Dispose - ReactiveCommand`1, duration = 3 ms
+2019-11-08 17:30:49.7115 - DEBUG: Dispose - ChromeViewModel, duration = 7 ms
+2019-11-08 17:30:49.7115 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 17:30:49.7115 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 17:30:49.7186 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 17:30:49.7186 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 17:30:58.5018 - INFO: Starting
+2019-11-08 17:30:58.5273 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:30:58.6449 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:31:01.3192 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:31:04.9728 - INFO: Started
+2019-11-08 17:31:07.7600 - DEBUG: Dispose - ReactiveCommand`1, duration = 2 ms
+2019-11-08 17:31:07.7600 - DEBUG: Dispose - ChromeViewModel, duration = 5 ms
+2019-11-08 17:31:07.7660 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 17:31:07.7660 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 17:31:07.7808 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 17:31:07.7808 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 17:46:02.5750 - INFO: Starting
+2019-11-08 17:46:02.5891 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:46:02.6582 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:46:03.1245 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:46:04.6551 - INFO: Started
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - ChromeViewModel, duration = 3 ms
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 17:46:32.3624 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 17:57:50.6264 - INFO: Starting
+2019-11-08 17:57:50.6406 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 17:57:50.7016 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 17:57:51.0408 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 17:57:52.0509 - INFO: Started
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - ChromeViewModel, duration = 7 ms
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 17:58:26.4845 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 18:02:21.5132 - INFO: Starting
+2019-11-08 18:02:21.5280 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 18:02:21.5880 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 18:02:22.0163 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 18:02:23.4279 - INFO: Started
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - ChromeViewModel, duration = 2 ms
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 18:02:57.4884 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 18:06:43.8794 - INFO: Unhandled app domain exception
+2019-11-08 18:06:43.8939 - ERROR: System.Windows.Markup.XamlParseException: 'Set property 'System.Windows.ResourceDictionary.Source' threw an exception.' Line number '11' and line position '18'.
+ ---> System.IO.IOException: Cannot locate resource 'styles/colors.xaml'.
+   at MS.Internal.AppModel.ResourcePart.GetStreamCore(FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackagePart.GetStream(FileMode mode, FileAccess access)
+   at MS.Internal.IO.Packaging.PackagePartExtensions.GetSeekableStream(PackagePart packPart, FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at System.Windows.Baml2006.WpfSharedBamlSchemaContext.<>c.<Create_BamlProperty_ResourceDictionary_Source>b__342_0(Object target, Object value)
+   at System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(XamlMember member, Object obj, Object value)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Optimization.UI.App.InitializeComponent() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml:line 1
+   at Optimization.UI.App.Main()
+EXCEPTION: System.Windows.Markup.XamlParseException: 'Set property 'System.Windows.ResourceDictionary.Source' threw an exception.' Line number '11' and line position '18'.
+ ---> System.IO.IOException: Cannot locate resource 'styles/colors.xaml'.
+   at MS.Internal.AppModel.ResourcePart.GetStreamCore(FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackagePart.GetStream(FileMode mode, FileAccess access)
+   at MS.Internal.IO.Packaging.PackagePartExtensions.GetSeekableStream(PackagePart packPart, FileMode mode, FileAccess access)
+   at System.IO.Packaging.PackWebResponse.CachedResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.GetResponseStream()
+   at System.IO.Packaging.PackWebResponse.get_ContentType()
+   at MS.Internal.WpfWebRequestHelper.GetContentType(WebResponse response)
+   at MS.Internal.WpfWebRequestHelper.GetResponseStream(WebRequest request, ContentType& contentType)
+   at System.Windows.ResourceDictionary.set_Source(Uri value)
+   at System.Windows.Baml2006.WpfSharedBamlSchemaContext.<>c.<Create_BamlProperty_ResourceDictionary_Source>b__342_0(Object target, Object value)
+   at System.Windows.Baml2006.WpfKnownMemberInvoker.SetValue(Object instance, Object value)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(XamlMember member, Object obj, Object value)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.SetValue(Object inst, XamlMember property, Object value)
+   --- End of inner exception stack trace ---
+   at System.Windows.Markup.XamlReader.RewrapException(Exception e, IXamlLineInfo lineInfo, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Optimization.UI.App.InitializeComponent() in D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.UI\App.xaml:line 1
+   at Optimization.UI.App.Main()
+2019-11-08 18:14:52.7027 - INFO: Starting
+2019-11-08 18:14:52.7257 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 18:14:52.8482 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 18:14:54.2417 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 18:14:55.8939 - INFO: Started
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - ReactiveCommand`1, duration = 1 ms
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - ChromeViewModel, duration = 5 ms
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 18:15:02.3635 - DEBUG: Dispose - MessageService, duration = 0 ms
+2019-11-08 18:19:06.8571 - INFO: Starting
+2019-11-08 18:19:06.8710 - INFO: Dispatcher managed thread identifier = 1
+2019-11-08 18:19:06.9356 - INFO: WPF rendering capability (tier) = 2
+2019-11-08 18:19:07.2975 - DEBUG: Constructor - OverlayService, duration = 0 ms
+2019-11-08 18:19:08.4206 - INFO: Started
+2019-11-08 18:20:40.8199 - DEBUG: Dispose - ReactiveCommand`1, duration = 2 ms
+2019-11-08 18:20:40.8199 - DEBUG: Dispose - ChromeViewModel, duration = 4 ms
+2019-11-08 18:20:40.8199 - DEBUG: Dispose - OverlayService, duration = 0 ms
+2019-11-08 18:20:40.8199 - DEBUG: Dispose - StartWindowViewModel, duration = 0 ms
+2019-11-08 18:20:40.8314 - DEBUG: Dispose - GesturesService, duration = 0 ms
+2019-11-08 18:20:40.8314 - DEBUG: Dispose - MessageService, duration = 0 ms

@@ -1,0 +1,15 @@
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.ServiceLayer.deps.json
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.ServiceLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.Common.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.Common.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.csprojAssemblyReference.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.AssemblyInfoInputs.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.AssemblyInfo.cs
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.csproj.CopyComplete
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\bin\Debug\netcoreapp3.0\Optimization.ServiceLayer.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.ServiceLayer\obj\Debug\netcoreapp3.0\Optimization.ServiceLayer.pdb

@@ -1,0 +1,15 @@
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.DbAccess.deps.json
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.DbAccess.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.DbAccess.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.csprojAssemblyReference.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.AssemblyInfoInputs.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.AssemblyInfo.cs
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.Common.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.DataLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.DataLayer.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\Optimization.Common.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DbAccess\obj\Debug\netcoreapp3.0\Optimization.DbAccess.csproj.CopyComplete

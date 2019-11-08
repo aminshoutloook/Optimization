@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimiz.Test\\Optimiz.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimiz.Test\\Optimiz.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimiz.Test\\Optimiz.Test.csproj",
+        "projectName": "Optimiz.Test",
+        "projectPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimiz.Test\\Optimiz.Test.csproj",
+        "packagesPath": "C:\\Users\\i.am.a.m.i.n\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimiz.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i.am.a.m.i.n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\Optimization.DataLayer.csproj": {
+                "projectPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\Optimization.DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\Optimization.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\Optimization.Common.csproj",
+        "projectName": "Optimization.Common",
+        "projectPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\Optimization.Common.csproj",
+        "packagesPath": "C:\\Users\\i.am.a.m.i.n\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i.am.a.m.i.n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\Optimization.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\Optimization.DataLayer.csproj",
+        "projectName": "Optimization.DataLayer",
+        "projectPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\Optimization.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\i.am.a.m.i.n\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\i.am.a.m.i.n\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\Optimization.Common.csproj": {
+                "projectPath": "D:\\projects\\myProjects\\selfs\\Optimazation\\Optimization.Core\\Optimization.Common\\Optimization.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

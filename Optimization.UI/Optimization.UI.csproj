@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Images\BeskaLogo.ico" />
+    <None Remove="Resources\Images\logo.png" />
+    <None Remove="Resources\Images\logoLg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="MahApps.Metro" Version="2.0.0-alpha0531" />
+    <PackageReference Include="MahApps.Metro.SimpleChildWindow" Version="2.0.0-alpha0031" />
+    <PackageReference Include="MaterialDesignColors" Version="1.2.1-ci699" />
+    <PackageReference Include="MaterialDesignThemes" Version="3.0.0-ci699" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.1" />
+    <PackageReference Include="System.Reactive" Version="4.2.0" />
+    <PackageReference Include="WW.Cad.NetStandard" Version="1.0.0-rc43" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Optimization.Common\Optimization.Common.csproj" />
+    <ProjectReference Include="..\Optimization.DataLayer\Optimization.DataLayer.csproj" />
+    <ProjectReference Include="..\Optimization.DbAccess\Optimization.DbAccess.csproj" />
+    <ProjectReference Include="..\Optimization.Logic\Optimization.Logic.csproj" />
+    <ProjectReference Include="..\Optimization.ServiceLayer\Optimization.ServiceLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BskaGenericCoreLib">
+      <HintPath>..\..\..\Custom API\BskaGenericCoreLib\BskaGenericCoreLib\bin\Debug\netstandard2.0\BskaGenericCoreLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Images\BeskaLogo.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Images\logoLg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

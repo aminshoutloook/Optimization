@@ -1,0 +1,15 @@
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.deps.json
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.csprojAssemblyReference.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.AssemblyInfoInputs.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.AssemblyInfo.cs
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.Common.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.Common.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\BskaGenericCoreLib.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\obj\Debug\netcoreapp3.0\Optimization.DataLayer.csproj.CopyComplete
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.runtimeconfig.json
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.DataLayer\bin\Debug\netcoreapp3.0\Optimization.DataLayer.runtimeconfig.dev.json

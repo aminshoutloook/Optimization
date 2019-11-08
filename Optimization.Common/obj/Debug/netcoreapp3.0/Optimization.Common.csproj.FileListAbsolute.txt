@@ -1,0 +1,8 @@
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\bin\Debug\netcoreapp3.0\Optimization.Common.deps.json
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\bin\Debug\netcoreapp3.0\Optimization.Common.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\bin\Debug\netcoreapp3.0\Optimization.Common.pdb
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\obj\Debug\netcoreapp3.0\Optimization.Common.csprojAssemblyReference.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\obj\Debug\netcoreapp3.0\Optimization.Common.AssemblyInfoInputs.cache
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\obj\Debug\netcoreapp3.0\Optimization.Common.AssemblyInfo.cs
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\obj\Debug\netcoreapp3.0\Optimization.Common.dll
+D:\projects\myProjects\selfs\Optimazation\Optimization.Core\Optimization.Common\obj\Debug\netcoreapp3.0\Optimization.Common.pdb
